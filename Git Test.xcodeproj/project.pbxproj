@@ -21,6 +21,7 @@
 		B64C470D1978187A005C0EF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B64C46EF19781879005C0EF5 /* UIKit.framework */; };
 		B64C47151978187A005C0EF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B64C47131978187A005C0EF5 /* InfoPlist.strings */; };
 		B64C47171978187A005C0EF5 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B64C47161978187A005C0EF5 /* Git_TestTests.m */; };
+		B64C4722197847AF005C0EF5 /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B64C4721197847AF005C0EF5 /* CCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		B64C47121978187A005C0EF5 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		B64C47141978187A005C0EF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B64C47161978187A005C0EF5 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		B64C4720197847AF005C0EF5 /* CCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTest.h; sourceTree = "<group>"; };
+		B64C4721197847AF005C0EF5 /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		B64C46F119781879005C0EF5 /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				B64C4720197847AF005C0EF5 /* CCTest.h */,
+				B64C4721197847AF005C0EF5 /* CCTest.m */,
 				B64C46FA19781879005C0EF5 /* CCAppDelegate.h */,
 				B64C46FB19781879005C0EF5 /* CCAppDelegate.m */,
 				B64C46FD19781879005C0EF5 /* Main.storyboard */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B64C46FC19781879005C0EF5 /* CCAppDelegate.m in Sources */,
+				B64C4722197847AF005C0EF5 /* CCTest.m in Sources */,
 				B64C46F819781879005C0EF5 /* main.m in Sources */,
 				B64C470219781879005C0EF5 /* CCViewController.m in Sources */,
 			);
